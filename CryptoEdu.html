@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CryptoEdu - Learn Cryptocurrency</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>CryptoEdu</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About CryptoEdu</h2>
+        <p>Welcome to CryptoEdu, your one-stop destination to learn about cryptocurrencies and blockchain technology. Whether you're a beginner or an experienced enthusiast, we have resources tailored to your needs.</p>
+    </section>
+
+    <section id="courses">
+        <h2>Our Courses</h2>
+        <div class="course">
+            <h3>Introduction to Cryptocurrency</h3>
+            <p>This course covers the basics of cryptocurrency, including what it is, how it works, and why it's important.</p>
+            <a href="#">Enroll Now</a>
+        </div>
+        <div class="course">
+            <h3>Blockchain Fundamentals</h3>
+            <p>Learn about the underlying technology of cryptocurrencies - the blockchain. Understand its structure, consensus mechanisms, and potential applications.</p>
+            <a href="#">Enroll Now</a>
+        </div>
+        <!-- Add more courses here -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or inquiries, feel free to reach out to us.</p>
+        <form action="submit.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 CryptoEdu. All rights reserved.</p>
+    </footer>
+</body>
+</html>
