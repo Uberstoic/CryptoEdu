@@ -19,14 +19,18 @@
     </header>
 
     <section id="about">
-        <h2>About CryptoEdu</h2>
-        <p>Welcome to CryptoEdu, your one-stop destination to learn about cryptocurrencies and blockchain technology. Whether you're a beginner or an experienced enthusiast, we have resources tailored to your needs.</p>
+        <div class="about" style="margin-top: 60px; margin-left: 15px; margin-bottom: 15px; text-align: center;">
+            <p>Welcome to CryptoEdu! We are your one-stop destination to learn about cryptocurrencies and blockchain technology. Whether you're a beginner or an experienced enthusiast, we have resources tailored to your needs.</p>
+        </div>
     </section>
+
+    <div class="divider"></div>
 
     <section id="courses">
         <h2>Our Courses</h2>
         <div class="course">
             <h3>Introduction to Cryptocurrency</h3>
+
             <p>This course covers the basics of cryptocurrency, including what it is, how it works, and why it's important.</p>
             <a href="#">Enroll Now</a>
         </div>
@@ -35,25 +39,36 @@
             <p>Learn about the underlying technology of cryptocurrencies - the blockchain. Understand its structure, consensus mechanisms, and potential applications.</p>
             <a href="#">Enroll Now</a>
         </div>
-        <!-- Add more courses here -->
+        <div class="course">
+            <h3>Decentralized Finance (DeFi): Applications and Implications</h3>
+            <p>This course will provide an in-depth exploration of the emerging field of Decentralized Finance (DeFi). Students will learn about the key elements of DeFi, how it differs from traditional finance, and the various DeFi applications that have been developed on blockchain networks.</p>
+            <a href="#">Enroll Now</a>
+        </div>
     </section>
+
+    <div class="divider"></div>
 
     <section id="contact">
         <h2>Contact Us</h2>
-        <p>If you have any questions or inquiries, feel free to reach out to us.</p>
-        <form action="submit.php" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required><br>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required><br>
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" rows="4" required></textarea><br>
-            <button type="submit">Send</button>
+        <p style="text-align: center;">If you have any questions or inquiries, feel free to reach out to us.</p>
+        <div class="container" style="display: flex;">
+            <div class="left-side"></div>
+              <form action="submit.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+                <button type="submit">Send</button>
         </form>
+            <div class="right-side", style="margin: 60px;"></div>
+            <p>Contact details</p>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2024 CryptoEdu. All rights reserved.</p>
+        <p><a href="#terms" style="text-decoration: none; color: #fff;" >Terms and Policies</a> | <a href="#contact" style="text-decoration: none; color: #fff;">Contact Us</a> | &copy; 2024 CryptoEdu. All rights reserved.</p>
     </footer>
 </body>
 </html>
