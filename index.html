@@ -52,18 +52,23 @@
         <h2>Contact Us</h2>
         <p style="text-align: center;">If you have any questions or inquiries, feel free to reach out to us.</p>
         <div class="container" style="display: flex;">
-            <div class="left-side"></div>
-              <form action="submit.php" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required><br>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required><br>
-                <label for="message">Message:</label><br>
-                <textarea id="message" name="message" rows="4" required></textarea><br>
-                <button type="submit">Send</button>
+            <div class="left-side">
+                <form action="submit.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" required></textarea><br>
+                    <button type="submit">Send</button>
+                </div>
         </form>
-            <div class="right-side"></div>
-            <p>Contact details</p>
+            <div class="right-side">
+                <p>Contact details</p>
+                <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+                <p>Phone: <a href="tel:+15551234567">+1 555-123-4567</a></p>
+                <p>Address: 1234 Main Street, Suite 567, Anytown, USA, 12345-6789</p>
+            </div>
         </div>
     </section>
 
