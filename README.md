@@ -3,13 +3,19 @@ CryptoEdu is an educational project aimed at providing resources and tools for l
 **Features**
 
 Educational Content: Comprehensive tutorials and articles covering fundamental concepts of blockchain and cryptocurrencies.
+
 Interactive Examples: Hands-on examples and code snippets to demonstrate key principles.
+
 Resource Links: Curated list of additional resources for further learning.
 
 **Project Structure**
+
 index.html: The main webpage containing educational content.
+
 styles.css: CSS file for styling the webpage.
+
 scripts/: Directory containing JavaScript files for interactive examples.
+
 
 **Contributing**
 
